@@ -13,6 +13,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import cl.isisur.pruebamapag02.databinding.ActivityMapsBinding;
 
+
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
