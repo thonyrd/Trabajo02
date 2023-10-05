@@ -51,12 +51,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng Lugares1 = new LatLng(-36.604587, -72.083914);
         LatLng Lugares2 = new LatLng(-36.6119628,-72.07268723);
         LatLng Grez = new LatLng(-36.602517302817866,-72.10115649861793);
+        LatLng Felipe =new LatLng(-36.635414, -71.996863);
 
         mMap.addMarker(new MarkerOptions().position(Santos).title("Santo Tomas Chillán - Gamero"));
         mMap.addMarker(new MarkerOptions().position(Lugares).title("Heladeria y Cafeteria Cremossos"));
         mMap.addMarker(new MarkerOptions().position(Lugares1).title("Cecinas Ramos Cordillera"));
         mMap.addMarker(new MarkerOptions().position(Lugares2).title("Fernando Muñoz"));
         mMap.addMarker(new MarkerOptions().position(Grez).title("Grez y Ulloa"));
+        mMap.addMarker(new MarkerOptions().position(Felipe).title("Felipe"));
+
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Lugares2));
         mMap.setMinZoomPreference(4.0F);
         mMap.setMaxZoomPreference(20.0f);
