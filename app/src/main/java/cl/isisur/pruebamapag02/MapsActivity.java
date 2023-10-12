@@ -62,7 +62,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Lugares2));
         mMap.setMinZoomPreference(4.0F);
-        mMap.setMaxZoomPreference(20.0f);
+        mMap.setMaxZoomPreference(18.0f);
 
 
     }
