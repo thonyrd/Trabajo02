@@ -61,7 +61,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mMap.addMarker(new MarkerOptions().position(Chilensis).title("Usuario"));
 
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Lugares2,15));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Chilensis,15));
         mMap.setMinZoomPreference(4.0F);
         mMap.setMaxZoomPreference(18.0f);
 
