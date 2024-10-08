@@ -51,7 +51,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng Lugares3 = new LatLng(-36.62004553561639, -72.07501470127191);
         LatLng Lugares4 = new LatLng(-36.62228975261783, -72.1307105327844);
 
-        LatLng Chilensis =new LatLng(-36.635414, -71.996863);
+        LatLng Chilensis =new LatLng(-36.59001522569667, -72.08211302388496);
 
 
         mMap.addMarker(new MarkerOptions().position(Lugares1).title("Sucursal 1"));
@@ -59,7 +59,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(Lugares3).title("Sucursal 3"));
         mMap.addMarker(new MarkerOptions().position(Lugares4).title("Sucursal 4"));
 
-        mMap.addMarker(new MarkerOptions().position(Chilensis).title("Usuario"));
+        mMap.addMarker(new MarkerOptions().position(Chilensis).title("Ubicacion Actual"));
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Chilensis,15));
         mMap.setMinZoomPreference(4.0F);
